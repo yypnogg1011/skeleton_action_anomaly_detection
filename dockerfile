@@ -9,3 +9,5 @@ RUN git clone https://github.com/RomeroBarata/skeleton_based_anomaly_detection.g
 RUN conda env create -f /skeleton_based_anomaly_detection/environment.yml
 
 RUN pip install numpy keras sklearn
+
+RUN apt install libgl1-mesa-glx -y
